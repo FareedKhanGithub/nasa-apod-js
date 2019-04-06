@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+main {
+  width: 720px;
+  margin: 0 auto; }
+
+#apodImg {
+  width: 100%;
+  max-width: 100%; }
+
+div[id^=apod] {
+  padding: .6rem 0;
+  font-size: 20px; }
+
+
+#apodVideo {
+  position: relative;
+  padding-bottom: 56.25%; /* Assumes a 16:9 ratio */
+  padding-top: 25px;
+  height: 0; }
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#btnRandApod {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding: .6rem; }
