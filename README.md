@@ -1,4 +1,4 @@
-TO RUN
+To run the project:
 
   -download the file.
 
